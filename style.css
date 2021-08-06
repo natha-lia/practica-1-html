@@ -1,12 +1,17 @@
+* {
+    margin: 0;
+}
+
 .header {
     background-color: rgb(103, 0, 151);
     display: flex;
     text-align: center;
     justify-content: center;
     position: relative;
-    padding: 10px;
+    padding: 38px;
     color: white;
     font-size: 20px;
+    text-transform: uppercase;
     font-family: sans-serif
 }
 .header img {
@@ -28,7 +33,7 @@
     justify-content: center;
 }
 .nav ul li {
-    padding: 3px;
+    padding: 15px;
     list-style: none;
     font-family: sans-serif;
 }
@@ -39,9 +44,56 @@
 }
 
 .main {
-    background-color: turquoise;
     display: flex;
     justify-content: flex-start;
-    text-align: center;
-    position: relative;
+    position: relative;  
+}
+.aside {
+    display: flex;
+    width: 15%;
+    background-color: whitesmoke;
+}
+.aside ul {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.aside ul li {
+    padding: 5px;
+    margin: 10px;
+    list-style: none;
+    font-family: sans-serif;
+}
+.aside ul li a {
+    text-decoration: none;
+    color: blue;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+.tittle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 100px 0;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 12px;
 }
