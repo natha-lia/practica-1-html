@@ -1,8 +1,15 @@
 * {
     margin: 0;
+    font-family: "Roboto";
+    padding-inline-end: 0;
+
+}
+.container {
+    height: 100vh;
 }
 .header {
-    background-color: rgb(103, 0, 151);
+    background: linear-gradient(to right, #800199, #a500b4);
+    margin-bottom: 15px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -12,30 +19,32 @@
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 900;
-    font-family: "roboto"
+    user-select: none;
+    box-shadow: 0 2px 2px gray;
+
 }
 .header img {
     width: 100px;
     height: 100px;
     border-radius:50%;
     position: absolute;
-    top: 0; left: 0;
-    margin: 10px 0 0 70px;
+    top: 12px; 
+    left: 45px;
 }
 
 .nav {
-    background-color: rgb(183, 227, 248);
+    background-color: rgb(203, 255, 248);
     display: flex;
     justify-content: center;
+    box-shadow: 0 2px 2px rgb(156, 166, 255);
+    margin-bottom: 2px;
 }
 .nav ul {
     display: flex;
-    justify-content: center;
 }
 .nav ul li {
     padding: 15px;
     list-style: none;
-    font-family: "roboto";
     font-weight: 700;
 }
 .nav ul li a {
@@ -46,24 +55,22 @@
 
 .main {
     display: flex;
-    justify-content: flex-start;
-    position: relative;  
+    min-height: 70%;
+    
 }
 .aside {
-    display: flex;
-    width: 15%;
+    max-width: 150%;
     background-color: whitesmoke;
 }
 .aside ul {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
+    align-items: center;
 }
 .aside ul li {
     padding: 5px;
     margin: 10px;
     list-style: none;
-    font-family: "roboto";
     font-weight: 500;
 }
 .aside ul li a {
@@ -73,32 +80,35 @@
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 70%;
+    width: 100%;
     background-color: white;
+    margin-top: 60px;
 }
 .tittle {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    font-family:"roboto";
     font-weight: 700;
     text-transform: capitalize;
 }
 .text {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin: 0 0 100px 0;
-    font-family: "roboto";
+    align-items: center;
     font-weight: 300;
     font-style: italic;
+    padding-top: 20px;
+}
+.text p {
+    margin-bottom: 20px;
 }
 
 .footer {
-    font-family: "roboto";
     font-size: 12px;
-    position: absolute;
+    position: fixed;
     bottom: 0; left: 0;
-    margin: 0 500px;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    user-select: none;
 }
