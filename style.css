@@ -2,13 +2,19 @@
     margin: 0;
     font-family: "Roboto";
     padding-inline-end: 0;
-
 }
 .container {
-    height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(https://www.conmishijos.com/assets/posts/14000/14825-adivinanzas-para-ninos-de-mar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header {
-    background: linear-gradient(to right, #800199, #a500b4);
+    background: rgba(205, 152, 255, 0.568);
+    opacity: 1;
     margin-bottom: 15px;
     display: flex;
     text-align: center;
@@ -21,7 +27,6 @@
     font-weight: 900;
     user-select: none;
     box-shadow: 0 2px 2px gray;
-
 }
 .header img {
     width: 100px;
@@ -33,7 +38,8 @@
 }
 
 .nav {
-    background-color: rgb(203, 255, 248);
+    background: rgba(176, 255, 152, 0.568);
+    opacity: 1;
     display: flex;
     justify-content: center;
     box-shadow: 0 2px 2px rgb(156, 166, 255);
@@ -49,66 +55,123 @@
 }
 .nav ul li a {
     margin: 20px;
-    color:blue;
+    color:rgb(106, 5, 146);
     text-decoration: none;
 }
 
 .main {
     display: flex;
-    min-height: 70%;
+    min-height: 71%;
     
 }
 .aside {
     max-width: 150%;
-    background-color: whitesmoke;
+    background: rgba(255, 255, 255, 0.336);
+    opacity: 1;
+    display: flex;
 }
+
 .aside ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    left: 0; right: 0;
+    text-align: center;
+    padding: 30px;  
 }
 .aside ul li {
     padding: 5px;
-    margin: 10px;
+    margin: 15px;
     list-style: none;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 17px;
 }
 .aside ul li a {
     text-decoration: none;
-    color: blue;
+    color: rgb(10, 10, 10);
 }
 .content {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: white;
-    margin-top: 60px;
+    background: rgba(189, 110, 253, 0.274);
+    opacity: 1;
 }
 .tittle {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 40px 0;
     font-weight: 700;
+    font-size: 28px;
     text-transform: capitalize;
+    color: rgb(208, 255, 0);
 }
 .text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 20px;
     font-style: italic;
-    padding-top: 20px;
+    margin: 20px 10px 0;
+    color: whitesmoke;
 }
 .text p {
     margin-bottom: 20px;
 }
 
 .footer {
-    font-size: 12px;
+    background: rgba(0, 0, 0, 0.479);
+    opacity: 1;
+    font-weight: 500;
+    font-size: 15px;
     position: fixed;
     bottom: 0; left: 0;
     right: 0;
     text-align: center;
     padding: 10px;
     user-select: none;
+    color: white;
 }
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(189, 110, 253, 0.151);
+    opacity: 1;
+    height: 100%;
+}
+.main2 h2 {
+    margin: 50px 10px 0;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+.text2 {
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    margin: 30px 10px;
+    padding: 5px;
+}
+.text2 img {
+    margin-top: 20px;
+    border-radius: 25%;
+    box-shadow: 0 3px 6px 2px rgb(115, 255, 0);
+}
+
+.main3 {
+    background: rgba(164, 211, 255, 0.151);
+    opacity: 1; 
+    display: flex;
+    flex-direction: column;
+}
+ .wrapper {
+     display: flex;
+     justify-content: center;
+     height: 100%;
+ }
+ 
+ 
