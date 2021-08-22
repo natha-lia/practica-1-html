@@ -28,46 +28,52 @@
             </ul>
         </div>
 
-        <div class="main">
+        <div class="main4">
             <form>
+                <div class="formText">
+                    <div class="labelText">
+                        <label for="name">Nombre completo:</label>
+                    </div>
+                    <input type="text" id="name" placeholder="Nombre y apellidos" required/>
 
-                <label for="name">Nombre completo:</label>
-                <input type="text" id="name" placeholder="Nombre y apellidos" required/>
-                <br>
-                <br>
-                <label for="email">Ingrese su correo:</label>
-                <input type="email" id="email" placeholder="E-mail" required/>
-                <br>
-                <br>
-                <label for="matter">Asunto:</label>
-                <input type="text" id="matter" placeholder="Asunto"/>
-                <br>
-                <br>
-                <p>Departamento:</p>
-                <select id="department">
-                    <option value=""disabled selected>Seleccione</option>
-                    <option value="Pecera">Pecera</option>
-                    <option value="Estanque">Estanque</option>
-                    <option value="Arrecife">Arrecife</option>
-                </select>
-                <br>
-                <br>
-                <p>Mensaje:</p>
-                <textarea id="message" cols="30" rows="10" 
-                placeholder="Escriba aqui..."></textarea>
-                <br>
-                <br>
-                <input type="checkbox" id="terms" required/>
-                <label for="terms">Acepto los términos</label>
-                <br>
-                <br>
-                <input type="submit"/>
+                    <div class="labelText">
+                        <label for="email">Ingrese su correo:</label>
+                    </div>
+                    <input type="email" id="email" placeholder="E-mail" required/>
+                    
+                    <div class="labelText">
+                        <label for="matter">Asunto:</label>
+                    </div>
+                    <input type="text" id="matter" placeholder="Asunto"/>
+                    
 
+                    <p>Departamento:</p>
+                    <select id="department">
+                        <option value=""disabled selected>Seleccione</option>
+                        <option value="Pecera">Pecera</option>
+                        <option value="Estanque">Estanque</option>
+                        <option value="Arrecife">Arrecife</option>
+                    </select>
+                    
+
+                    <p>Mensaje:</p>
+                    <textarea id="message" cols="30" rows="10" 
+                    placeholder="Escriba aqui..."></textarea>
+                    
+                    <div class="input">
+                        <input type="checkbox" id="terms" required/>
+                        <label for="terms">Acepto los términos</label>
+                    </div>
+                    
+                    <div class="sent">
+                        <input type="submit"/>
+                    </div>
+                </div>
             </form>
         </div>
 
         <div class="footer">
-            soy la dory olvidadiza. todos los derechos reservados 2021
+            Soy la dory olvidadiza. Todos los derechos reservados 2021
         </div>
 
 </body>
